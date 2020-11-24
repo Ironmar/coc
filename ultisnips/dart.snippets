@@ -1,0 +1,83 @@
+snippet ma "funcion main" b
+void main() {
+	$1
+}
+endsnippet
+
+snippet im "import" b
+import '$1';
+endsnippet
+
+snippet pr "print" b
+print($1);
+endsnippet
+
+snippet imp "import package" b
+import 'package:$1';
+
+endsnippet
+
+snippet imm "flutter material" b
+import 'package:flutter/material.dart';
+
+endsnippet
+
+snippet stl "stateless Widget" b
+class $1 extends StatelessWidget {
+	@override
+		Widget build(BuildContext context) {
+			return $2;	
+		}
+}
+
+endsnippet
+
+snippet imaap "import material application" b
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(Myapp());
+}
+
+class Myapp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Matrial App',
+      home: ${1: Widget},
+			);
+  }
+}
+
+endsnippet
+
+snippet stf "statefulWidget" b
+class $1 extends StatefulWidget {
+	@override
+	_$1State createState() => _$1State();
+}
+
+class _$1State extends State<$1> {
+	@override
+		build(BuildContext context) {
+			return Container();	
+	}
+}
+
+endsnippet
+
+snippet ret "return" b
+return $1;
+
+endsnippet
+
+snippet blo "Estructura del la libreria bloc" b
+import 'package:bloc/bloc.dart';
+
+class $1 extends Bloc<${2:Event}, ${3: State}> {
+	$1() : super(null);
+  @override
+  Stream<$3> mapEventToState($2 event) async* {}
+}
+endsnippet 

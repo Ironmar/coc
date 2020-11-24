@@ -1,0 +1,101 @@
+snippet clg "console.log()" b
+console.log($1);
+endsnippet
+
+snippet sfc "staless function" b
+const ${1} = () => {
+	return();
+};
+export default $1;
+endsnippet
+
+snippet im "import" b
+import $2 from '$1';
+endsnippet
+
+snippet ar "arrow function" b
+const $1 = ($2) => {
+	$3
+};
+endsnippet
+
+snippet fn "normal function" b
+function $1($2) {
+	$3
+};
+endsnippet
+
+snippet arr "array" b
+const $1 = [
+	$2
+];
+endsnippet
+
+snippet obj "objeto" b
+const $1 = {
+	$2
+};
+endsnippet
+
+snippet if "if" b
+if(${1:condicion}) {
+	${2: condigo}
+}
+endsnippet
+
+snippet for "for" b
+for(let i=0; $1; i++) {
+	$2
+}
+endsnippet
+
+snippet imr "import react" b
+import React from "react";
+const $1:React.FC = () => {
+	return(
+		<$4>
+			$5
+		</$4>
+)};
+export default $1;
+endsnippet
+
+snippet us "import useState" b
+const [$1, $2] = $3;
+
+endsnippet
+
+snippet st "styled component" b
+export const $1 = styled.$2;
+
+endsnippet
+
+snippet tes "Test" b
+test('${1:description}', () => {
+	${2:Code....}
+});
+
+endsnippet
+
+snippet des "Describe test" b
+import '@testing-library/jest-dom';
+describe('${1:description}', () => {
+	${2:Tests..}
+});
+
+endsnippet
+
+snippet ims "Import styled-components" b
+import styled from 'styled-components';
+
+endsnippet
+
+snippet usf "Use effect" b
+useEffect(() => {
+			${1:effect}
+		return () => {
+			${2:cleanup}
+		}
+});
+endsnippet
+

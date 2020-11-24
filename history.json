@@ -1,0 +1,63 @@
+{
+  "commands": {
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fpeliculas": [
+      "flutterge",
+      "flutterget",
+      "flutter"
+    ],
+    "%2Fhome%2Fmartin%2Fclima": [
+      "flutter",
+      "flutterget"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fpractica%2Fpelis": [
+      "flutterget"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FPython": [
+      "pyton",
+      "python"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fqrreader": [
+      "flutterdeb",
+      "flutter"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FReact%2FCurso-Herrera%2F01-intro-js": [
+      "flutterj f",
+      "flutterj"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fpractica%2Fbloc": [
+      "flutter"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fbloc_library": [
+      "flutter"
+    ]
+  },
+  "FlutterEmulators": {
+    "%2Fhome%2Fmartin%2Fclima": [
+      "f"
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fcontador": [
+      " "
+    ]
+  },
+  "extensions": {
+    "%2Fhome%2Fmartin%2FDocumentos%2FReact%2Fbasicos": [
+      " "
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FEjercicios%20Progra%2FDart": [
+      " "
+    ],
+    "%2Fhome%2Fmartin%2FDocumentos%2FReact%2FCurso-Herrera%2Fcounter": [
+      "s"
+    ]
+  },
+  "commits": {
+    "%2Fhome%2Fmartin%2FDocumentos%2FReact%2FCurso-Herrera%2Fcounter": [
+      ":Coc"
+    ]
+  },
+  "FlutterDevices": {
+    "%2Fhome%2Fmartin%2FDocumentos%2FFlutter%2Fpractica%2Fbloc": [
+      "e"
+    ]
+  }
+}
